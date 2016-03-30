@@ -16,3 +16,36 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900&subset=latin,cyrillic); 
+
+body {
+	background-color: #333;
+	font-family: 'Roboto', sans-serif;
+}
+.app {
+	  background-color: #fff;
+    max-width: 99%;
+    min-height: 700px;
+    margin: auto;
+    -webkit-box-shadow: -1px 0px 15px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 0px 15px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 0px 15px 0px rgba(0, 0, 0, 0.75);
+}
+
+.header {
+	color: #fff;
+	background-color: #333;
+	padding: 15px;
+}
+
+#content .card {
+  background-color: #fafafa;
+  padding: 5px;
+  margin: 5px;
+  border-bottom: 3px solid black; 
+}
+
+#content .card p {
+	font-size: 13px;
+}
