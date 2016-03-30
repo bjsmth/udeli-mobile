@@ -1,0 +1,30 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "utl.app.chat"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "utl.app.chat"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "utl.app.chat"
+        },
+        "org.apache.cordova.media": {
+            "PACKAGE_NAME": "utl.app.chat"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "utl.app.chat"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "utl.app.chat"
+        }
+    },
+    "dependent_plugins": {}
+}
