@@ -1,6 +1,6 @@
  // $("#get-data").click(function() {
     $.ajax({
-        url:  "http://udeli.ru/api/d",
+        url:  "http://udeli.ru/dispather/api/lots",
         type: "GET",
         dataType: "json",
         async: true,
@@ -14,7 +14,7 @@
             });
             // alert(JSON.stringify(data));
             // pages.push(data)
-            // $( "#show-data" ).append(JSON.stringify(pages));
+            // $( #"show-data" ).append(JSON.stringify(pages));
         }
     });
  // });
